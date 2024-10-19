@@ -12,8 +12,8 @@
     in {
       packages.${system}.grain = pkgs.stdenv.mkDerivation rec {
         pname = "grain";
-        version = "preview";
-        # version = "grain-v0.6.6";
+        # version = "preview";
+        version = "grain-v0.6.6";
 
         dontUnpack = true;
 
